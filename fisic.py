@@ -1,0 +1,5 @@
+x0=float(input("Imaginemos que lanzas un diso sobr una pista de hielo tal que la fuerza de rozamiento sea nula, introduce la posicion inicial del objeto "))
+v0=float(input("Ahora dime a que velocidad lanzaste el disco "))
+t=float(input("Ahora que tenmos esos datos dime en que instante de tiempo (en seg) quieres predecir la posicion de dicho objeto "))
+x=x0+(v0*t)
+print("El objeto está a ",x,"metros de su posicion")
